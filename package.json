@@ -96,6 +96,7 @@
     "desktop:package": "node scripts/desktop-package.mjs",
     "test:convex": "vitest run --config vitest.config.mts",
     "test:convex:watch": "vitest --config vitest.config.mts"
+    ,"diagnostics": "node ./scripts/diagnostics.mjs"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.7",
