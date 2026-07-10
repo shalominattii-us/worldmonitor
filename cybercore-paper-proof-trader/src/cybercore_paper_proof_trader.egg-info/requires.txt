@@ -1,0 +1,4 @@
+tzdata>=2024.1
+
+[test]
+pytest>=8.0

@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: cybercore-paper-proof-trader
+Version: 0.2.0
+Summary: Paper-performance qualified live trade controller with morning brief approval
+Requires-Python: >=3.11
+Requires-Dist: tzdata>=2024.1
+Provides-Extra: test
+Requires-Dist: pytest>=8.0; extra == "test"

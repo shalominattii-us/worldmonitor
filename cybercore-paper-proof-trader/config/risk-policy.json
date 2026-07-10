@@ -1,0 +1,33 @@
+{
+  "paper_window_trades": 60,
+  "minimum_paper_trades": 30,
+  "minimum_distinct_days": 3,
+  "minimum_win_rate": 0.5,
+  "minimum_expectancy_bps": 3.0,
+  "minimum_profit_factor": 1.15,
+  "maximum_drawdown_pct": 8.0,
+  "maximum_average_slippage_bps": 20.0,
+  "minimum_proof_score": 0.7,
+  "maximum_live_order_quote_usd": 10.0,
+  "maximum_live_daily_notional_pct_of_balance": 35.0,
+  "maximum_live_daily_loss_pct_of_balance": 8.0,
+  "maximum_live_trades_per_day": 8,
+  "minimum_quote_size_usd": 1.0,
+  "approval_expires_local_hour": 23,
+  "approval_expires_local_minute": 59,
+  "hedge_required": true,
+  "hedge_ratio": 0.5,
+  "minimum_hedge_quote_usd": 1.0,
+  "maximum_hedge_quote_usd": 10.0,
+  "maximum_hedges_per_day": 8,
+  "allowed_hedge_modes": [
+    "reduce_only_market",
+    "protective_stop"
+  ],
+  "allowed_hedge_products": [
+    "BTC-USD",
+    "ETH-USD",
+    "SOL-USD"
+  ],
+  "protective_stop_distance_bps": 125.0
+}

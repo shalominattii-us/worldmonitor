@@ -1,0 +1,2 @@
+[console_scripts]
+cybercore-trader = cybercore_trader.cli:main

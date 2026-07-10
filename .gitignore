@@ -83,3 +83,12 @@ tmp/
 docs/plans/
 docs/brainstorms/
 playground-pricing.html
+cybercore-paper-proof-trader/.venv/
+cybercore-paper-proof-trader/data/
+cybercore-paper-proof-trader/logs/
+cybercore-paper-proof-trader/.env
+**/__pycache__/
+**/.pytest_cache/
+*.pem
+*.key
+*.p12

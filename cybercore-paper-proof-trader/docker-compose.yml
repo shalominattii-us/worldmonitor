@@ -1,0 +1,14 @@
+services:
+  cybercore-paper-proof-trader:
+    build: .
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      CYBERCORE_DATA_DIR: /state/data
+      CYBERCORE_LOG_DIR: /state/logs
+      CYBERCORE_POLICY_PATH: /app/config/risk-policy.json
+    volumes:
+      - ./state:/state
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

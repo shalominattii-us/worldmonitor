@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cybercore-paper-proof-trader"
+version = "0.2.0"
+description = "Paper-performance qualified live trade controller with morning brief approval"
+requires-python = ">=3.11"
+dependencies = ["tzdata>=2024.1"]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[project.scripts]
+cybercore-trader = "cybercore_trader.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
