@@ -1,0 +1,47 @@
+﻿{
+    "generated_at":  "2026-07-09T18:34:22.0331430-06:00",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "line_name":  "CYBERGENETICS_LLM_LINE",
+    "lineage":  [
+                    {
+                        "node":  "CANONICAL_PRIME_PRIORITY",
+                        "role":  "root authority",
+                        "class":  "AUTHORITY",
+                        "function":  "sets priority, DNA rules, class gates, audit discipline"
+                    },
+                    {
+                        "node":  "SKILL_AUTHORING_AUTHORITY",
+                        "role":  "DNA author",
+                        "class":  "AUTHORITY_OFFICE",
+                        "function":  "authors and registers skill DNA"
+                    },
+                    {
+                        "node":  "CYBERCORE_LLM",
+                        "role":  "core reasoning line",
+                        "class":  "CORE_MODEL_LINE",
+                        "function":  "coordinates fraud, corporate case-prep, funding, and audit workflows"
+                    },
+                    {
+                        "node":  "CYBERGENETICS_LLM",
+                        "role":  "model DNA lineage",
+                        "class":  "MODEL_DNA_LINE",
+                        "function":  "maintains model cards, prompts, eval gates, lineage, and class promotion"
+                    },
+                    {
+                        "node":  "MOLTBOOK_OPERATOR_LLM",
+                        "role":  "operator handoff line",
+                        "class":  "OPERATOR_CLASS",
+                        "function":  "prepares operator packets and reconciliation records"
+                    }
+                ],
+    "inheritance_rules":  [
+                              "child models inherit Canonical Prime Priority controls",
+                              "child models cannot remove safety boundary",
+                              "child models cannot set bypass true",
+                              "child models cannot store secrets",
+                              "child models cannot execute money movement",
+                              "child models must emit audit references"
+                          ],
+    "bypass":  false,
+    "human_review_required":  true
+}

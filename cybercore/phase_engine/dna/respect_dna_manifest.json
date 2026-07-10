@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-07-09T10:36:47.7124083-06:00",
+  "service": "respect-dna",
+  "doctrine": "Respect produces the DNA. Class is earned from proof.",
+  "dna_strands": {
+    "utility": [
+      "fraud routing",
+      "corporate law case prep",
+      "funding resource swarm",
+      "operator handoff preparation",
+      "audit continuity"
+    ],
+    "class": [
+      "raw",
+      "proofed",
+      "trusted",
+      "funding_ready",
+      "operator_class"
+    ],
+    "discipline": [
+      "facts before claims",
+      "evidence before demand",
+      "logs before money",
+      "human review gates",
+      "no fabricated credibility"
+    ],
+    "proof": [
+      "working endpoints",
+      "green probes",
+      "compiled code",
+      "case packets generated",
+      "resource retrieval complete"
+    ],
+    "trust": [
+      "source records",
+      "JURIS continuity",
+      "controls visible",
+      "status reproducible",
+      "failure reports preserved"
+    ]
+  },
+  "class_rule": "Class is not declared. Class is earned by score, evidence, and continuity.",
+  "human_review_required": true
+}

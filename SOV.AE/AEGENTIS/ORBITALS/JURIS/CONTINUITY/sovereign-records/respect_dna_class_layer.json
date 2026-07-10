@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-07-09T10:36:47.9387137-06:00",
+  "record_type": "respect_dna_class_layer",
+  "title": "Respect DNA and earned class system",
+  "summary": "Added a DNA/class layer to the respect-then-money phase engine. Respect becomes the system DNA through proof, discipline, utility, and trust. Class is earned by score and continuity.",
+  "doctrine": "Respect first. DNA forms. Class is earned. Money follows class.",
+  "classes": [
+    "RAW_BUILD",
+    "PROOFED_ENGINE",
+    "TRUSTED_INFRA",
+    "FUNDING_READY",
+    "OPERATOR_CLASS"
+  ],
+  "endpoints": {
+    "badge": "http://127.0.0.1:8098/api/corp/funding/swarm/phases/badge",
+    "lineage": "http://127.0.0.1:8098/api/corp/funding/swarm/phases/lineage",
+    "dna": "http://127.0.0.1:8098/api/corp/funding/swarm/phases/dna",
+    "class": "http://127.0.0.1:8098/api/corp/funding/swarm/phases/class"
+  },
+  "human_review_required": true
+}

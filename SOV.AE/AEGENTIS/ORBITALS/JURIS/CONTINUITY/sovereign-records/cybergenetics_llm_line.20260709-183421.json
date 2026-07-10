@@ -1,0 +1,18 @@
+﻿{
+    "generated_at":  "2026-07-09T18:34:22.6285305-06:00",
+    "record_type":  "cybergenetics_llm_line",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "office":  "SKILL_AUTHORING_AUTHORITY",
+    "line_name":  "CYBERGENETICS_LLM_LINE",
+    "root_model":  "CYBERCORE_LLM",
+    "summary":  "Installed Cybercore LLM / Cybergenetics LLM model-DNA line with model cards, system prompt, eval gates, lineage registry, and JURIS continuity.",
+    "manifest":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\cybergenetics_llm_line\\cybergenetics_llm_line.manifest.json",
+    "lineage":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\cybergenetics_llm_line\\lineage\\cybergenetics_llm_lineage.20260709-183421.json",
+    "registry":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\cybergenetics_llm_line\\registry\\cybergenetics_llm_line_registry.jsonl",
+    "system_prompt":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\cybergenetics_llm_line\\system_prompts\\cybergenetics_llm_system_prompt.20260709-183421.txt",
+    "eval_gate":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\cybergenetics_llm_line\\eval_gates\\cybergenetics_llm_eval_gate.20260709-183421.json",
+    "class":  "OPERATOR_CLASS_READY",
+    "phase":  "model_dna_authoring",
+    "bypass":  false,
+    "human_review_required":  true
+}

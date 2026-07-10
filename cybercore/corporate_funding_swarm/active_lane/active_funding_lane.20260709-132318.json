@@ -1,0 +1,40 @@
+﻿{
+    "generated_at":  "2026-07-09T13:23:18.4733174-06:00",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "skill_name":  "corporate-funding-swarm",
+    "class":  "OPERATOR_CLASS",
+    "phase":  "money_preparation",
+    "respect_score":  100,
+    "money_unlocked":  true,
+    "operator_required":  true,
+    "bypass":  false,
+    "selected_lane":  "Coinbase commerce revenue rail readiness",
+    "funding_amount_or_target":  "1,000,000",
+    "use_of_funds":  " corporate funding operations, fraud/case-prep infrastructure, revenue rail activation",
+    "official_portal_or_account":  "Coinbase Business / official Coinbase account",
+    "operator_actions":  [
+                             "Confirm legal entity, EIN, state registration, and authority.",
+                             "Confirm funding lane, amount, destination, and use of funds.",
+                             "Review official source/portal/account directly.",
+                             "Verify every statement against records before submission.",
+                             "Approve, submit, trade, transfer, or sign only inside the authorized official platform/account.",
+                             "Return only non-secret confirmation/reference/receipt data for audit."
+                         ],
+    "blocked_from_packet":  [
+                                "passwords",
+                                "2FA codes",
+                                "API secrets",
+                                "seed phrases",
+                                "private keys",
+                                "session cookies",
+                                "wallet backup files"
+                            ],
+    "lane_status":  "SELECTED_FOR_OPERATOR_REVIEW",
+    "next_step":  "Build lane-specific readiness packet and collect non-secret evidence only.",
+    "audit_references":  {
+                             "dna_path":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\dna\\corporate-funding-swarm.skill_dna.json",
+                             "promotion_registry":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\registry\\skill_class_promotions.jsonl",
+                             "lock":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\proofs\\corporate-funding-swarm.execution_verification_lock.json"
+                         },
+    "human_review_required":  true
+}

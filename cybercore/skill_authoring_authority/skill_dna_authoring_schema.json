@@ -1,0 +1,76 @@
+﻿{
+    "generated_at":  "2026-07-09T13:05:11.5174535-06:00",
+    "schema":  "canonical-prime-priority-skill-dna",
+    "required":  [
+                     "authority",
+                     "skill_name",
+                     "purpose",
+                     "domain",
+                     "dna_strands",
+                     "controls",
+                     "class",
+                     "phase",
+                     "lineage"
+                 ],
+    "dna_strands":  {
+                        "audit":  [
+                                      "record_path",
+                                      "juris_record",
+                                      "hash_optional"
+                                  ],
+                        "outputs":  [
+                                        "allowed_outputs",
+                                        "blocked_outputs",
+                                        "handoff_outputs"
+                                    ],
+                        "phase":  [
+                                      "respect",
+                                      "money",
+                                      "operator"
+                                  ],
+                        "purpose":  [
+                                        "mission",
+                                        "user_value",
+                                        "operational_boundary"
+                                    ],
+                        "evidence":  [
+                                         "source_files",
+                                         "logs",
+                                         "proofs",
+                                         "status_records"
+                                     ],
+                        "class":  [
+                                      "initial_class",
+                                      "earned_class",
+                                      "score_required"
+                                  ],
+                        "controls":  [
+                                         "safety",
+                                         "legal",
+                                         "financial",
+                                         "cyber",
+                                         "privacy",
+                                         "operator_gate"
+                                     ],
+                        "identity":  [
+                                         "skill_id",
+                                         "skill_name",
+                                         "domain",
+                                         "version"
+                                     ],
+                        "lineage":  [
+                                        "author",
+                                        "authority",
+                                        "parent_skill",
+                                        "created_at",
+                                        "registry_path"
+                                    ],
+                        "inputs":  [
+                                       "accepted_inputs",
+                                       "rejected_inputs",
+                                       "secret_handling"
+                                   ]
+                    },
+    "rule":  "DNA is authored as structured capability, not as a claim of legal sovereignty.",
+    "human_review_required":  true
+}

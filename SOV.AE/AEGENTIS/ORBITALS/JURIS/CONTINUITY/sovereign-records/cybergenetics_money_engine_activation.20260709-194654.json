@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-07-09T19:46:55.7124815-06:00",
+  "record_type": "cybergenetics_money_engine_activation",
+  "authority": "CANONICAL_PRIME_PRIORITY",
+  "engine": "CYBERGENETICS_MONEY_ENGINE",
+  "status": "MONEY_OPERATIONS_READY",
+  "asset_scan": "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\money_engine\\asset_scan\\money_engine_asset_scan.20260709-194654.json",
+  "catalog": "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\money_engine\\catalog\\cybergenetics_revenue_catalog.20260709-194654.json",
+  "checkout_placeholders": "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\money_engine\\checkout\\checkout_link_placeholders.20260709-194654.json",
+  "lead_pipeline": "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\money_engine\\leads\\lead_pipeline.20260709-194654.json",
+  "operator_queue": "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\money_engine\\operator_queue\\money_operator_queue.20260709-194654.json",
+  "offer_sheet": "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\money_engine\\catalog\\CYBERGENETICS_MONEY_OFFER_SHEET.20260709-194654.md",
+  "live_execution_locked": true,
+  "dry_run_allowed": true,
+  "operator_required": true,
+  "bypass": false,
+  "summary": "Activated revenue operations using Cybergenetics, corporate funding, Coinbase readiness, fraud/case-prep, DNA patent-prep, and LLM line assets. Live execution remains operator-only."
+}

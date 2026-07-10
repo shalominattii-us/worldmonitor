@@ -1,0 +1,2 @@
+C:\Users\eagle\AppData\Local\Programs\DockerDesktop\resources\bin\docker
+C:\Users\eagle\AppData\Local\Programs\DockerDesktop\resources\bin\docker.exe

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-07-09T19:49:02.7734928-06:00",
+  "authority": "CANONICAL_PRIME_PRIORITY",
+  "engine": "CYBERGENETICS_MONEY_ENGINE",
+  "status": "FIRST_SALE_LAUNCH_READY",
+  "goal": "Convert Cybergenetics assets into first paid customer or first paid invoice.",
+  "source_artifacts": {
+    "offer_sheet": "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\money_engine\\catalog\\CYBERGENETICS_MONEY_OFFER_SHEET.20260709-194654.md",
+    "catalog": "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\money_engine\\catalog\\cybergenetics_revenue_catalog.20260709-194654.json",
+    "checkout_placeholders": "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\money_engine\\checkout\\checkout_link_placeholders.20260709-194654.json",
+    "operator_queue": "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\money_engine\\operator_queue\\money_operator_queue.20260709-194654.json"
+  },
+  "execution_rules": {
+    "bypass": false,
+    "autonomous_transfer": false,
+    "autonomous_withdrawal": false,
+    "operator_required": true,
+    "secret_collection": false,
+    "autonomous_trading": false
+  },
+  "first_sale_order": [
+    "Pick one flagship SKU.",
+    "Create official checkout/invoice link in Coinbase Business, bank, or invoice platform.",
+    "Paste only the public checkout URL into local checkout map.",
+    "Publish landing page.",
+    "Send 5 outreach messages.",
+    "Record replies and non-secret confirmation data."
+  ],
+  "flagship_sku": "CG-FRAUD-CASE",
+  "backup_skus": [
+    "CG-COINBASE-RAIL",
+    "CG-FUNDING-READINESS",
+    "CG-DNA-PATENT-PREP"
+  ]
+}

@@ -1,0 +1,14 @@
+IMAGE                                        ID             DISK USAGE   CONTENT SIZE   EXTRA
+ae_hub-aegentis-cybernetic-hub:latest        5edcc7320b63        283MB         67.6MB   U    
+aegentis-x-autoheal:latest                   f051eb1339ac        203MB         49.8MB   U    
+aegentis-x-cipher:latest                     bf919456cd3b        203MB         49.8MB   U    
+aegentis-x-constellation:latest              d70285b750f6        203MB         49.8MB   U    
+aegentis-x-iteration-engine:latest           2fa1d376c374        203MB         49.8MB   U    
+aegentis-x-meta-kernel:latest                ca3caf16de78        203MB         49.8MB   U    
+aegentis-x-orbital-runtime:latest            cd8772bf3f12        203MB         49.8MB   U    
+aegentis-x-overwatch:latest                  0f810c630408        203MB         49.8MB   U    
+aegentis-x-sovereign-node:latest             af5081499a08        203MB         49.8MB   U    
+aegentis-x-unity-bridge:latest               5ffaf2d97d90        203MB         49.8MB   U    
+nikolaik/python-nodejs:python3.11-nodejs20   8f958bdc1b4a       2.23GB          575MB   U    
+python:3.11-slim                             e031123e3d85        189MB         47.7MB        
+redis:7.2-alpine                             dfa18828cbc0       56.9MB         16.4MB   U    

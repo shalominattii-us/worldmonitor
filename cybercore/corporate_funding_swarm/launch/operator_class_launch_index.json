@@ -1,0 +1,36 @@
+﻿{
+    "generated_at":  "2026-07-09T13:15:42.9808208-06:00",
+    "launch_status":  "READY_FOR_OPERATOR_REVIEW",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "skill_name":  "corporate-funding-swarm",
+    "class":  "OPERATOR_CLASS",
+    "phase":  "money_preparation",
+    "respect_score":  100,
+    "money_unlocked":  true,
+    "operator_required":  true,
+    "bypass":  false,
+    "artifacts":  {
+                      "promotion_registry":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\registry\\skill_class_promotions.jsonl",
+                      "latest_juris_record":  "C:\\Users\\eagle\\code\\worldmonitor\\SOV.AE\\AEGENTIS\\ORBITALS\\JURIS\\CONTINUITY\\sovereign-records\\corporate_funding_swarm_operator_class_money_preparation.20260709-131452.json",
+                      "dna":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\dna\\corporate-funding-swarm.skill_dna.json",
+                      "lock":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\proofs\\corporate-funding-swarm.execution_verification_lock.json",
+                      "latest_operator_packet":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\corporate_funding_swarm\\operator_handoff\\corporate-funding-swarm.operator_class.money_preparation.20260709-131452.json"
+                  },
+    "operator_start_sequence":  [
+                                    "Open operator packet.",
+                                    "Confirm funding lane and entity data.",
+                                    "Verify official portal/account directly.",
+                                    "Execute only inside official portal/account.",
+                                    "Return non-secret confirmation/reference number.",
+                                    "Record reconciliation and JURIS continuity."
+                                ],
+    "blocked":  [
+                    "passwords",
+                    "2FA codes",
+                    "API secrets",
+                    "seed phrases",
+                    "private keys",
+                    "session cookies",
+                    "bypass"
+                ]
+}

@@ -1,0 +1,77 @@
+﻿{
+    "ok":  true,
+    "generated_at":  "2026-07-09T13:05:12.7221763-06:00",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "office":  "SKILL_AUTHORING_AUTHORITY",
+    "doctrine":  "Heed Canonical Prime Priority. It authors DNA. Respect gives class.",
+    "skill_name":  "respect-dna-class-author",
+    "domain":  "phase_engine.skill_authoring",
+    "purpose":  "Author skill DNA under Canonical Prime Priority.",
+    "dna_strands":  {
+                        "class":  "RAW_BUILD",
+                        "authority":  "CANONICAL_PRIME_PRIORITY",
+                        "strand_id":  "fa5e83c0-60d9-497f-8aea-c1abbdbf39c7",
+                        "controls":  [
+                                         "canonical_prime_priority_required",
+                                         "respect_gate_required",
+                                         "class_earned_by_score",
+                                         "no_fabricated_capability",
+                                         "no_secret_collection",
+                                         "human_review_required",
+                                         "canonical_prime_priority_only",
+                                         "human_review_gate",
+                                         "respect_before_money"
+                                     ],
+                        "name":  "respect-dna-class-author",
+                        "generated_at":  "2026-07-09T19:05:12.7061973Z",
+                        "purpose":  "Author skill DNA under Canonical Prime Priority.",
+                        "inputs":  [
+                                       "skill_name",
+                                       "domain",
+                                       "purpose",
+                                       "inputs",
+                                       "outputs",
+                                       "controls",
+                                       "evidence"
+                                   ],
+                        "lineage":  [
+                                        "authority:CANONICAL_PRIME_PRIORITY",
+                                        "office:SKILL_AUTHORING_AUTHORITY",
+                                        "doctrine:Respect creates DNA. Class is earned."
+                                    ],
+                        "phase":  "respect",
+                        "evidence":  [
+                                         "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\canonical_prime_priority_skill_authority.manifest.json",
+                                         "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\skill_dna_authoring_schema.json",
+                                         "C:\\Users\\eagle\\code\\worldmonitor\\SOV.AE\\AEGENTIS\\ORBITALS\\JURIS\\CONTINUITY\\sovereign-records\\canonical_prime_priority_skill_authoring_authority.json"
+                                     ],
+                        "domain":  "phase_engine.skill_authoring",
+                        "outputs":  [
+                                        "skill_dna_json",
+                                        "registry_record",
+                                        "authority_lineage"
+                                    ]
+                    },
+    "class":  {
+                  "earned":  "RAW_BUILD",
+                  "initial":  "RAW_BUILD",
+                  "promotion_rule":  "Promotion requires respect score and evidence."
+              },
+    "phase":  {
+                  "current":  "respect",
+                  "money_unlocked":  false,
+                  "operator_required":  true
+              },
+    "controls":  [
+                     "canonical_prime_priority_required",
+                     "respect_gate_required",
+                     "class_earned_by_score",
+                     "no_fabricated_capability",
+                     "no_secret_collection",
+                     "human_review_required",
+                     "canonical_prime_priority_only",
+                     "human_review_gate",
+                     "respect_before_money"
+                 ],
+    "output_path":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\dna\\respect-dna-class-author.skill_dna.json"
+}

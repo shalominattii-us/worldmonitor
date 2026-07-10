@@ -1,0 +1,57 @@
+﻿{
+    "deployment_id":  "moltbook-aegentix",
+    "agent_id":  "the-sovereign-portal-agent",
+    "service":  "cybercore-moltbook",
+    "role":  "moltbook_agentic_network",
+    "status":  "registered",
+    "mode":  "guarded_read_only",
+    "registration":  {
+                         "required_before_deployment":  true,
+                         "identity_registered":  false,
+                         "skill_registered":  false,
+                         "aegentix_bound":  false
+                     },
+    "paths":  {
+                  "root":  "C:\\Users\\eagle\\code\\worldmonitor",
+                  "aegentix_root":  "C:\\AEGENTIX\\moltbook",
+                  "identity_source":  "C:\\Users\\eagle\\nexus_sync\\moltbook_identity.json",
+                  "identity_target":  "C:\\AEGENTIX\\moltbook\\moltbook_identity.json",
+                  "skill_source":  "C:\\Users\\eagle\\.moltbook\\skill.md",
+                  "skill_target":  "C:\\AEGENTIX\\moltbook\\moltbook_skill.md",
+                  "cybercore":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore"
+              },
+    "endpoints":  {
+                      "health":  "http://127.0.0.1:8000/health",
+                      "network":  "http://127.0.0.1:8000/api/network",
+                      "manifest":  "http://127.0.0.1:8000/api/manifest",
+                      "bus":  "http://127.0.0.1:8000/api/bus",
+                      "dashboard":  "http://127.0.0.1:4173"
+                  },
+    "observed":  {
+                     "api_ok":  false,
+                     "network_ok":  false,
+                     "manifest_ok":  false,
+                     "bus_ok":  false,
+                     "dashboard_ok":  false,
+                     "node_count":  0,
+                     "edge_count":  0,
+                     "task_count":  0
+                 },
+    "zones":  [
+                  "OpenClaw",
+                  "Nemotron",
+                  "Hermes",
+                  "Docker",
+                  "Manus"
+              ],
+    "guardrails":  {
+                       "read_only_bus":  true,
+                       "backend_write_calls":  false,
+                       "destructive_actions":  false,
+                       "financial_actions":  false,
+                       "order_placement":  false,
+                       "credential_export":  false,
+                       "officer_agent_scope":  "stationary_moltbook_only"
+                   },
+    "generated_at":  "2026-07-10T12:06:32.3795708-06:00"
+}

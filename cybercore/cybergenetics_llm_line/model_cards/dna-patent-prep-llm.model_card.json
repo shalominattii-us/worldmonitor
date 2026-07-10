@@ -1,0 +1,39 @@
+﻿{
+    "generated_at":  "2026-07-09T18:34:22.1893442-06:00",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "model_name":  "DNA Patent Prep LLM",
+    "model_id":  "dna-patent-prep-llm",
+    "domain":  "ip.patent_prep",
+    "purpose":  "Invention disclosure, prior-art plan, claim scaffold, drawings list, provisional packet prep, and attorney review handoff.",
+    "class":  "OPERATOR_CLASS_READY",
+    "phase":  "model_dna_authoring",
+    "allowed_tasks":  [
+                          "case preparation",
+                          "evidence organization",
+                          "funding readiness",
+                          "operator handoff",
+                          "JURIS continuity",
+                          "patent-prep scaffolding",
+                          "audit/reconciliation"
+                      ],
+    "blocked_tasks":  [
+                          "credential collection",
+                          "private key or seed phrase handling",
+                          "API secret storage",
+                          "unauthorized cyber activity",
+                          "exploit payload generation",
+                          "malware generation",
+                          "court filing without human review",
+                          "patent filing without attorney review",
+                          "fund movement without operator execution"
+                      ],
+    "memory_boundary":  {
+                            "may_store_credentials":  false,
+                            "may_remember_public_artifacts":  true,
+                            "may_store_secrets":  false,
+                            "may_store_private_keys":  false,
+                            "may_remember_architecture":  true
+                        },
+    "eval_required":  true,
+    "human_review_required":  true
+}

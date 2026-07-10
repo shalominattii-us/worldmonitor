@@ -1,0 +1,14 @@
+CONTAINER ID   IMAGE                                        COMMAND                  CREATED        STATUS                          PORTS                                         NAMES
+e2fa0ce10b20   ae_hub-aegentis-cybernetic-hub               "uvicorn app.main:apΓÇª"   5 hours ago    Restarting (1) 28 seconds ago                                                 aegentis_cybernetic_hub
+72fb19f37f4d   redis:7.2-alpine                             "docker-entrypoint.sΓÇª"   13 hours ago   Exited (255) 5 hours ago        6379/tcp                                      loving_feistel
+804eeb6ffdda   aegentis-x-overwatch                         "python service.py"      32 hours ago   Up 2 hours                      0.0.0.0:9103->9103/tcp, [::]:9103->9103/tcp   aegentis-x-overwatch-1
+8effd42dc5b7   aegentis-x-cipher                            "python service.py"      32 hours ago   Up 2 hours                      0.0.0.0:9104->9104/tcp, [::]:9104->9104/tcp   aegentis-x-cipher-1
+e502000797aa   aegentis-x-iteration-engine                  "python service.py"      32 hours ago   Up 2 hours                      0.0.0.0:9108->9108/tcp, [::]:9108->9108/tcp   aegentis-x-iteration-engine-1
+d501a14dd519   aegentis-x-meta-kernel                       "python service.py"      32 hours ago   Up 2 hours                      0.0.0.0:9101->9101/tcp, [::]:9101->9101/tcp   aegentis-x-meta-kernel-1
+81f243184380   aegentis-x-sovereign-node                    "python service.py"      32 hours ago   Up 2 hours                      0.0.0.0:9100->9100/tcp, [::]:9100->9100/tcp   aegentis-x-sovereign-node-1
+0d3beb41d4c2   aegentis-x-constellation                     "python service.py"      32 hours ago   Up 2 hours                      0.0.0.0:9105->9105/tcp, [::]:9105->9105/tcp   aegentis-x-constellation-1
+53ea655180b6   aegentis-x-autoheal                          "python service.py"      32 hours ago   Up 2 hours                      0.0.0.0:9107->9107/tcp, [::]:9107->9107/tcp   aegentis-x-autoheal-1
+70cabcb3433f   aegentis-x-unity-bridge                      "python service.py"      32 hours ago   Up 2 hours                      0.0.0.0:9106->9106/tcp, [::]:9106->9106/tcp   aegentis-x-unity-bridge-1
+636de248e982   aegentis-x-orbital-runtime                   "python service.py"      32 hours ago   Up 2 hours                      0.0.0.0:9102->9102/tcp, [::]:9102->9102/tcp   aegentis-x-orbital-runtime-1
+5452012e9848   nikolaik/python-nodejs:python3.11-nodejs20   "sleep infinity"         32 hours ago   Up 2 hours                                                                    hermes-08c26a1d
+8ef6ed28f414   nikolaik/python-nodejs:python3.11-nodejs20   "sleep infinity"         32 hours ago   Up 2 hours                                                                    hermes-9e808335

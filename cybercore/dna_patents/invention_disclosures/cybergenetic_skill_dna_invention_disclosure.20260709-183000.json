@@ -1,0 +1,50 @@
+﻿{
+    "generated_at":  "2026-07-09T18:30:01.1277405-06:00",
+    "invention_title":  "Canonical Prime Priority Cybergenetic Skill-DNA Authoring and Class Promotion System",
+    "short_title":  "Cybergenetic Skill-DNA Authority",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "inventorship_status":  "human_review_required",
+    "applicant_or_assignee":  "operator_to_confirm",
+    "technical_field":  "software architecture, workflow orchestration, audit-controlled skill registration, legal/financial readiness automation, operator-gated execution systems",
+    "problem_statement":  [
+                              "AI/software workflows can generate capabilities without stable provenance, proof, class, or execution gates.",
+                              "Financial/legal/fraud workflows require traceable authority, evidence, controls, and operator review before execution.",
+                              "Existing automation often lacks a structured mechanism for earning trust before enabling money-preparation workflows."
+                          ],
+    "solution_summary":  [
+                             "A Canonical Prime Priority authority layer authors skill DNA.",
+                             "Each skill DNA includes identity, purpose, inputs, outputs, controls, evidence, lineage, class, phase, and audit strands.",
+                             "Respect scoring verifies artifacts before class promotion.",
+                             "Class promotion gates money-preparation workflows.",
+                             "Operator execution remains separate from automated preparation.",
+                             "JURIS continuity records preserve audit lineage."
+                         ],
+    "core_components":  [
+                            "Canonical Prime Priority authority",
+                            "CybergeneticRegistrationStrand type",
+                            "Skill DNA JSON schema",
+                            "Skill DNA registry",
+                            "Respect scoring lock",
+                            "Class promotion registry",
+                            "Funding-swarm operator handoff",
+                            "JURIS continuity record"
+                        ],
+    "working_artifacts":  {
+                              "skill_dna":  "cybercore\\skill_authoring_authority\\dna\\corporate-funding-swarm.skill_dna.json",
+                              "readiness_packet":  "cybercore\\corporate_funding_swarm\\readiness_packets",
+                              "operator_packet":  "cybercore\\corporate_funding_swarm\\operator_handoff",
+                              "launch_index":  "cybercore\\corporate_funding_swarm\\launch\\operator_class_launch_index.json",
+                              "active_lane":  "cybercore\\corporate_funding_swarm\\active_lane",
+                              "promotion_registry":  "cybercore\\skill_authoring_authority\\registry\\skill_class_promotions.jsonl"
+                          },
+    "commercial_use_cases":  [
+                                 "corporate funding readiness",
+                                 "fraud case preparation",
+                                 "corporate law case preparation",
+                                 "operator-gated Coinbase/revenue rail readiness",
+                                 "audit-controlled AI workflow classification"
+                             ],
+    "disclosure_risk_note":  "Do not publish detailed enabling disclosure before attorney review if preserving patent rights matters.",
+    "not_legal_advice":  true,
+    "patent_attorney_review_required":  true
+}

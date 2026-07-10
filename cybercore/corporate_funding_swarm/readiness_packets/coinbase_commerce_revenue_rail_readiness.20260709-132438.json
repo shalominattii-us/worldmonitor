@@ -1,0 +1,92 @@
+﻿{
+    "generated_at":  "2026-07-09T13:24:45.4990044-06:00",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "office":  "SKILL_AUTHORING_AUTHORITY",
+    "skill_name":  "corporate-funding-swarm",
+    "class":  "OPERATOR_CLASS",
+    "phase":  "money_preparation",
+    "respect_score":  100,
+    "selected_lane":  "Coinbase commerce revenue rail readiness",
+    "funding_amount_or_target":  "1,000,000",
+    "use_of_funds":  "corporate funding operations, fraud/case-prep infrastructure, revenue rail activation",
+    "official_portal_or_account":  "Coinbase Business / official Coinbase account",
+    "lane_status":  "COINBASE_REVENUE_RAIL_READINESS_PACKET_BUILT",
+    "coinbase_local_api_status":  [
+                                      {
+                                          "url":  "http://127.0.0.1:8097/health",
+                                          "ok":  false,
+                                          "error":  "Unable to connect to the remote server",
+                                          "checked_at":  "2026-07-09T13:24:41.1343308-06:00"
+                                      },
+                                      {
+                                          "url":  "http://127.0.0.1:8097/",
+                                          "ok":  false,
+                                          "error":  "Unable to connect to the remote server",
+                                          "checked_at":  "2026-07-09T13:24:43.1944727-06:00"
+                                      },
+                                      {
+                                          "url":  "http://127.0.0.1:8097/api/health",
+                                          "ok":  false,
+                                          "error":  "Unable to connect to the remote server",
+                                          "checked_at":  "2026-07-09T13:24:45.2419168-06:00"
+                                      }
+                                  ],
+    "readiness_sections":  {
+                               "revenue_rail_setup":  [
+                                                          "Confirm Coinbase Business / official Coinbase account access.",
+                                                          "Confirm intended product: commerce, payment acceptance, custody, or exchange/revenue rail.",
+                                                          "Confirm settlement asset and accounting treatment.",
+                                                          "Confirm transaction records and receipts can be exported.",
+                                                          "Confirm reconciliation path back to funding swarm audit records."
+                                                      ],
+                               "compliance_review":  [
+                                                         "Review tax/accounting treatment.",
+                                                         "Review sanctions/OFAC screening requirements where applicable.",
+                                                         "Review customer/payment terms.",
+                                                         "Review refund/chargeback/dispute process.",
+                                                         "Review state/federal money-transmission or crypto-payment obligations with qualified reviewer if needed."
+                                                     ],
+                               "operator_execution":  [
+                                                          "Operator opens official Coinbase portal/account directly.",
+                                                          "Operator confirms amount, destination, asset, and terms.",
+                                                          "Operator performs any approval, transaction, checkout setup, transfer, or signature only inside the official platform/account.",
+                                                          "Operator returns only non-secret confirmation/reference/receipt data.",
+                                                          "System records confirmation and reconciliation after operator action."
+                                                      ],
+                               "blocked_from_packet":  [
+                                                           "passwords",
+                                                           "2FA codes",
+                                                           "API secrets",
+                                                           "seed phrases",
+                                                           "private keys",
+                                                           "session cookies",
+                                                           "wallet backup files"
+                                                       ],
+                               "entity_authority":  [
+                                                        "Confirm legal entity name.",
+                                                        "Confirm EIN.",
+                                                        "Confirm state registration.",
+                                                        "Confirm authorized operator.",
+                                                        "Confirm Coinbase account is official and controlled by authorized operator."
+                                                    ]
+                           },
+    "required_non_secret_evidence":  [
+                                         "entity name",
+                                         "EIN confirmation note, not full sensitive tax packet unless needed",
+                                         "Coinbase official account status note",
+                                         "payment/revenue rail purpose",
+                                         "target amount",
+                                         "use-of-funds statement",
+                                         "operator authorization note",
+                                         "non-secret confirmation/reference numbers after operator action"
+                                     ],
+    "audit_references":  {
+                             "dna_path":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\dna\\corporate-funding-swarm.skill_dna.json",
+                             "promotion_registry":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\registry\\skill_class_promotions.jsonl",
+                             "lock":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\proofs\\corporate-funding-swarm.execution_verification_lock.json"
+                         },
+    "source_active_lane_packet":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\corporate_funding_swarm\\active_lane\\active_funding_lane.20260709-132318.json",
+    "bypass":  false,
+    "operator_required":  true,
+    "human_review_required":  true
+}

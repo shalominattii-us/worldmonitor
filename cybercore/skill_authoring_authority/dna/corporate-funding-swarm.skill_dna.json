@@ -1,0 +1,88 @@
+﻿{
+    "ok":  true,
+    "generated_at":  "2026-07-09T13:05:31.1583882-06:00",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "office":  "SKILL_AUTHORING_AUTHORITY",
+    "doctrine":  "Heed Canonical Prime Priority. It authors DNA. Respect gives class.",
+    "skill_name":  "corporate-funding-swarm",
+    "domain":  "moltbook.corporate_funding",
+    "purpose":  "Retrieve funding resources, build readiness packets, and create operator handoff for corporate funding.",
+    "dna_strands":  {
+                        "class":  "RAW_BUILD",
+                        "authority":  "CANONICAL_PRIME_PRIORITY",
+                        "strand_id":  "2a8c3ce7-5bda-4af4-a8a3-955142ea0516",
+                        "controls":  [
+                                         "canonical_prime_priority_required",
+                                         "respect_gate_required",
+                                         "class_earned_by_score",
+                                         "no_fabricated_capability",
+                                         "no_secret_collection",
+                                         "human_review_required",
+                                         "no_false_statements",
+                                         "operator_execution_required"
+                                     ],
+                        "name":  "corporate-funding-swarm",
+                        "generated_at":  "2026-07-09T19:05:31.1445809Z",
+                        "purpose":  "Retrieve funding resources, build readiness packets, and create operator handoff for corporate funding.",
+                        "inputs":  [
+                                       "funding_need",
+                                       "business_profile",
+                                       "evidence",
+                                       "resource_sources"
+                                   ],
+                        "lineage":  [
+                                        "authority:CANONICAL_PRIME_PRIORITY",
+                                        "office:SKILL_AUTHORING_AUTHORITY",
+                                        "doctrine:Respect creates DNA. Class is earned."
+                                    ],
+                        "phase":  "respect",
+                        "evidence":  [
+                                         "SBA",
+                                         "Grants.gov",
+                                         "SBIR/STTR",
+                                         "SSBCI",
+                                         "CDFI",
+                                         "Coinbase readiness status"
+                                     ],
+                        "domain":  "moltbook.corporate_funding",
+                        "outputs":  [
+                                        "funding_lane_route",
+                                        "readiness_checklist",
+                                        "operator_handoff_packet",
+                                        "audit_record"
+                                    ]
+                    },
+    "class":  {
+                  "earned":  "OPERATOR_CLASS",
+                  "initial":  "RAW_BUILD",
+                  "promotion_rule":  "Promotion requires respect score and evidence.",
+                  "score":  100
+              },
+    "phase":  {
+                  "current":  "money_preparation",
+                  "money_unlocked":  true,
+                  "operator_required":  true
+              },
+    "controls":  [
+                     "canonical_prime_priority_required",
+                     "respect_gate_required",
+                     "class_earned_by_score",
+                     "no_fabricated_capability",
+                     "no_secret_collection",
+                     "human_review_required",
+                     "no_false_statements",
+                     "operator_execution_required"
+                 ],
+    "output_path":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\dna\\corporate-funding-swarm.skill_dna.json",
+    "promotion":  {
+                      "promoted_at":  "2026-07-09T13:13:00.7122334-06:00",
+                      "authority":  "CANONICAL_PRIME_PRIORITY",
+                      "office":  "SKILL_AUTHORING_AUTHORITY",
+                      "skill_name":  "corporate-funding-swarm",
+                      "to_class":  "OPERATOR_CLASS",
+                      "respect_score":  100,
+                      "money_unlocked":  true,
+                      "lock":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\proofs\\corporate-funding-swarm.execution_verification_lock.json",
+                      "rule":  "Class earned by proof artifacts."
+                  }
+}

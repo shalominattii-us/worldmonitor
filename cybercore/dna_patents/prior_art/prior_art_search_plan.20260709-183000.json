@@ -1,0 +1,64 @@
+﻿{
+    "generated_at":  "2026-07-09T18:30:01.2725638-06:00",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "invention":  "Cybergenetic Skill-DNA Authority",
+    "search_objective":  "Find similar systems before drafting claims.",
+    "search_domains":  [
+                           "USPTO Patent Public Search",
+                           "Google Patents",
+                           "WIPO Patentscope",
+                           "GitHub/public software projects",
+                           "AI workflow orchestration systems",
+                           "governance/risk/compliance automation",
+                           "audit logging and policy-as-code systems",
+                           "financial operator handoff systems"
+                       ],
+    "keyword_groups":  {
+                           "authority_layer":  [
+                                                   "skill authoring authority",
+                                                   "canonical priority",
+                                                   "workflow authority",
+                                                   "policy controlled automation"
+                                               ],
+                           "legal_financial":  [
+                                                   "case preparation automation",
+                                                   "funding readiness automation",
+                                                   "compliance packet generator"
+                                               ],
+                           "respect_class":  [
+                                                 "trust score workflow",
+                                                 "capability class promotion",
+                                                 "artifact-based promotion",
+                                                 "proof gate"
+                                             ],
+                           "operator_gate":  [
+                                                 "operator handoff",
+                                                 "human in the loop execution",
+                                                 "approval gated automation",
+                                                 "financial execution gate"
+                                             ],
+                           "dna_registry":  [
+                                                "capability registry",
+                                                "skill DNA",
+                                                "workflow DNA",
+                                                "software lineage registry",
+                                                "audit lineage"
+                                            ]
+                       },
+    "patentability_questions":  [
+                                    "What is the specific technical improvement over generic workflow automation?",
+                                    "Which components are novel in combination?",
+                                    "Which steps are concrete machine/process steps rather than abstract business rules?",
+                                    "Which artifacts prove reduction to practice?",
+                                    "Which features should remain trade secret instead of patent disclosure?"
+                                ],
+    "output_required":  [
+                            "closest references",
+                            "similarity notes",
+                            "differences",
+                            "claim-risk notes",
+                            "trade-secret-vs-patent recommendation for attorney review"
+                        ],
+    "not_legal_advice":  true,
+    "patent_attorney_review_required":  true
+}

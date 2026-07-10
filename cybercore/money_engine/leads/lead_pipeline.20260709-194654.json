@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-07-09T19:46:55.3056921-06:00",
+  "authority": "CANONICAL_PRIME_PRIORITY",
+  "pipeline_status": "READY_FOR_OUTREACH",
+  "target_segments": [
+    {
+      "segment": "crypto fraud victims and small businesses",
+      "offer": "CG-FRAUD-CASE",
+      "first_action": "collect non-secret evidence inventory"
+    },
+    {
+      "segment": "founders seeking grants/SBA/state credit",
+      "offer": "CG-FUNDING-READINESS",
+      "first_action": "build funding readiness packet"
+    },
+    {
+      "segment": "AI/cyber startups needing governance",
+      "offer": "CG-LLM-LINE",
+      "first_action": "model-DNA audit and implementation plan"
+    },
+    {
+      "segment": "businesses accepting crypto or digital payments",
+      "offer": "CG-COINBASE-RAIL",
+      "first_action": "Coinbase/revenue rail readiness review"
+    },
+    {
+      "segment": "inventors with software workflow inventions",
+      "offer": "CG-DNA-PATENT-PREP",
+      "first_action": "invention disclosure packet"
+    }
+  ],
+  "lead_status_values": [
+    "new",
+    "contacted",
+    "discovery_scheduled",
+    "packet_requested",
+    "quote_sent",
+    "paid",
+    "delivered",
+    "closed"
+  ],
+  "current_leads": [],
+  "secrets_allowed": false
+}

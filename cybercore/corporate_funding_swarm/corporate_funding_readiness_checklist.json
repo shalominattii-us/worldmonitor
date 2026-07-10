@@ -1,0 +1,62 @@
+﻿{
+    "ok":  true,
+    "generated_at":  "2026-07-09T13:12:59.9562969-06:00",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "skill_name":  "corporate-funding-swarm",
+    "checklist":  {
+                      "legal_review":  [
+                                           "verify eligibility",
+                                           "review certifications",
+                                           "review personal guarantee exposure",
+                                           "review UCC/collateral terms",
+                                           "review grant restrictions",
+                                           "review crypto/payment compliance if Coinbase rails are used"
+                                       ],
+                      "financials":  [
+                                         "business bank statements",
+                                         "profit and loss",
+                                         "balance sheet",
+                                         "cash-flow statement",
+                                         "tax returns",
+                                         "debt schedule",
+                                         "accounts receivable/payable",
+                                         "use-of-funds budget"
+                                     ],
+                      "operator_handoff":  [
+                                               "operator confirms official portal",
+                                               "operator confirms amount and destination",
+                                               "operator confirms entity and terms",
+                                               "operator executes only inside official account/portal",
+                                               "operator returns confirmation/reference record only",
+                                               "no secrets stored in packet"
+                                           ],
+                      "entity":  [
+                                     "legal entity name",
+                                     "EIN",
+                                     "state registration",
+                                     "registered agent",
+                                     "business address",
+                                     "ownership / beneficial owner notes",
+                                     "NAICS code"
+                                 ],
+                      "funding_packet":  [
+                                             "executive summary",
+                                             "business plan",
+                                             "pitch deck if needed",
+                                             "funding amount",
+                                             "use of proceeds",
+                                             "repayment or commercialization plan",
+                                             "collateral list if relevant",
+                                             "customer pipeline or contracts if relevant"
+                                         ]
+                  },
+    "controls":  [
+                     "no false statements",
+                     "no fabricated revenue",
+                     "no credential collection",
+                     "no API secret storage",
+                     "no seed phrase or private key storage",
+                     "human review required",
+                     "operator execution required"
+                 ]
+}

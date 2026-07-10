@@ -1,0 +1,6 @@
+NETWORK ID     NAME                 DRIVER    SCOPE
+6e3141caf93c   ae_hub_default       bridge    local
+31fc0d708c45   aegentis-x_default   bridge    local
+226edb5c24a6   bridge               bridge    local
+b6f429156135   host                 host      local
+00f432549f60   none                 null      local

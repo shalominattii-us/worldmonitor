@@ -1,0 +1,17 @@
+﻿{
+    "generated_at":  "2026-07-09T13:10:05.8353637-06:00",
+    "record_type":  "skill_class_promotion",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "office":  "SKILL_AUTHORING_AUTHORITY",
+    "skill_name":  "corporate-funding-swarm",
+    "earned_class":  "TRUSTED_INFRA",
+    "phase":  "respect",
+    "respect_score":  50,
+    "doctrine":  "Respect creates DNA. DNA earns class. 75 unlocks money phase.",
+    "money_unlocked":  false,
+    "operator_required":  true,
+    "human_review_required":  true,
+    "lock":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\proofs\\corporate-funding-swarm.execution_verification_lock.json",
+    "dna_path":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\dna\\corporate-funding-swarm.skill_dna.json",
+    "note":  "Corrected failed threshold logic. Score 50 earns TRUSTED_INFRA, not FUNDING_READY."
+}

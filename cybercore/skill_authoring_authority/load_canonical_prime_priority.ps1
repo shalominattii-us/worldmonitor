@@ -1,0 +1,5 @@
+﻿$ErrorActionPreference = "Stop"
+. "C:\Users\eagle\code\worldmonitor\cybercore\skill_authoring_authority\types\CanonicalPrimePriority.types.ps1"
+Write-Host "[OK] Canonical Prime Priority loaded."
+Write-Host "[OK] Types available: [CanonicalPrimePriorityAuthority], [CybergeneticRegistrationStrand]"
+Write-Host "[OK] Functions available: New-CanonicalSkillDNA, Register-CanonicalSkillDNA"

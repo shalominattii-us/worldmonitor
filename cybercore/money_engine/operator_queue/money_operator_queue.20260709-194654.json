@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-07-09T19:46:55.4476531-06:00",
+  "authority": "CANONICAL_PRIME_PRIORITY",
+  "queue_status": "MONEY_ACTIONS_READY",
+  "tasks": [
+    {
+      "priority": 1,
+      "task": "Create official checkout/invoice links for six SKUs.",
+      "owner": "operator",
+      "platform": "official Coinbase Business / bank / invoice platform",
+      "status": "ready"
+    },
+    {
+      "priority": 2,
+      "task": "Publish offer sheet / landing page from catalog.",
+      "owner": "operator_or_web_stack",
+      "platform": "worldmonitor / public site",
+      "status": "ready"
+    },
+    {
+      "priority": 3,
+      "task": "Start outreach to first five targets using fraud/funding/LLM offers.",
+      "owner": "operator",
+      "platform": "email / LinkedIn / direct network",
+      "status": "ready"
+    },
+    {
+      "priority": 4,
+      "task": "Use Coinbase dry-run adapter only for non-secret test receipt.",
+      "owner": "operator",
+      "platform": "local dry-run",
+      "status": "ready"
+    },
+    {
+      "priority": 5,
+      "task": "Keep Coinbase live runner locked unless operator acts inside official platform.",
+      "owner": "operator",
+      "platform": "official Coinbase only",
+      "status": "locked"
+    }
+  ],
+  "live_execution_locked": true,
+  "operator_required": true,
+  "bypass": false
+}

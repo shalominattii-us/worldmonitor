@@ -1,0 +1,13 @@
+﻿{
+    "generated_at":  "2026-07-09T18:30:01.7524184-06:00",
+    "record_type":  "dna_patent_preparation",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "office":  "SKILL_AUTHORING_AUTHORITY",
+    "packet_status":  "READY_FOR_PATENT_ATTORNEY_REVIEW",
+    "patent_pending":  false,
+    "filing_status":  "NOT_FILED",
+    "provisional_prep_index":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\dna_patents\\provisional_packet\\dna_patent_provisional_prep_index.20260709-183000.json",
+    "doctrine":  "Respect creates DNA. DNA earns class. Patent preparation preserves invention disclosure for human review.",
+    "human_review_required":  true,
+    "patent_attorney_review_required":  true
+}

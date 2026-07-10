@@ -1,0 +1,45 @@
+﻿{
+    "generated_at":  "2026-07-09T13:12:59.3980478-06:00",
+    "dispatch_id":  "moltbook-corporate-funding-swarm",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "office":  "SKILL_AUTHORING_AUTHORITY",
+    "skill_name":  "corporate-funding-swarm",
+    "target":  "MOLTBOOK",
+    "mode":  "funding_resource_retrieval_execution_preparation_and_operator_handoff",
+    "phase":  "respect_to_money_preparation",
+    "objective":  "Retrieve corporate funding resources, build readiness packet, prepare operator handoff, and preserve audit continuity.",
+    "funding_lanes":  [
+                          "SBA debt capital",
+                          "SBA lender matching",
+                          "federal grants",
+                          "SBIR/STTR R\u0026D",
+                          "state credit / SSBCI",
+                          "CDFI / community finance",
+                          "Coinbase commerce revenue rail readiness"
+                      ],
+    "required_outputs":  [
+                             "funding lane route",
+                             "resource index",
+                             "readiness checklist",
+                             "operator handoff packet",
+                             "audit record",
+                             "JURIS continuity"
+                         ],
+    "execution_gate":  {
+                           "official_portal_execution_required":  true,
+                           "secrets_in_packet_allowed":  false,
+                           "operator_required":  true,
+                           "preparation_allowed":  true
+                       },
+    "controls":  [
+                     "canonical_prime_priority_required",
+                     "no false statements",
+                     "no fabricated revenue",
+                     "no credential collection",
+                     "no API secret storage",
+                     "no private key or seed phrase storage",
+                     "operator execution required",
+                     "human review required"
+                 ],
+    "valid":  true
+}

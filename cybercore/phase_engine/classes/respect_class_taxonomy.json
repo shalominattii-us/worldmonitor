@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-07-09T10:36:47.8274687-06:00",
+  "service": "respect-class-taxonomy",
+  "classes": [
+    {
+      "class": "RAW_BUILD",
+      "min_score": 0,
+      "max_score": 24,
+      "meaning": "Code exists but has not earned operational respect.",
+      "allowed": [
+        "compile",
+        "test",
+        "repair",
+        "document"
+      ]
+    },
+    {
+      "class": "PROOFED_ENGINE",
+      "min_score": 25,
+      "max_score": 49,
+      "meaning": "Core pieces work and produce proof.",
+      "allowed": [
+        "route cases",
+        "generate checklists",
+        "preserve logs",
+        "create draft packets"
+      ]
+    },
+    {
+      "class": "TRUSTED_INFRA",
+      "min_score": 50,
+      "max_score": 74,
+      "meaning": "System shows repeatability, controls, and continuity.",
+      "allowed": [
+        "case prep",
+        "resource swarm",
+        "evidence index",
+        "operator readiness"
+      ]
+    },
+    {
+      "class": "FUNDING_READY",
+      "min_score": 75,
+      "max_score": 89,
+      "meaning": "Respect gate passed. Money phase preparation is allowed.",
+      "allowed": [
+        "funding packet",
+        "application readiness",
+        "Coinbase readiness",
+        "operator handoff draft"
+      ]
+    },
+    {
+      "class": "OPERATOR_CLASS",
+      "min_score": 90,
+      "max_score": 100,
+      "meaning": "High-trust operating class with proof, controls, continuity, and handoff discipline.",
+      "allowed": [
+        "full case packet",
+        "funding execution prep",
+        "audit reconciliation",
+        "board/operator packet"
+      ]
+    }
+  ],
+  "doctrine": "The system does not buy class. It earns class.",
+  "human_review_required": true
+}

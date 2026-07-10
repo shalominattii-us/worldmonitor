@@ -1,0 +1,49 @@
+﻿{
+    "generated_at":  "2026-07-09T13:07:15.5562175-06:00",
+    "skill_name":  "corporate-funding-swarm",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "office":  "SKILL_AUTHORING_AUTHORITY",
+    "registry_status":  "Verified-Active",
+    "safety_boundary":  "active",
+    "bypass":  false,
+    "previous_class":  "RAW_BUILD",
+    "earned_class":  "RAW_BUILD",
+    "phase":  "respect",
+    "respect_score":  50,
+    "checks":  [
+                   {
+                       "name":  "canonical_registry_verified",
+                       "ok":  true,
+                       "points":  20
+                   },
+                   {
+                       "name":  "dna_file_present",
+                       "ok":  true,
+                       "points":  20
+                   },
+                   {
+                       "name":  "funding_swarm_dispatch_present",
+                       "ok":  false,
+                       "points":  20
+                   },
+                   {
+                       "name":  "funding_resource_index_present",
+                       "ok":  false,
+                       "points":  15
+                   },
+                   {
+                       "name":  "readiness_checklist_present",
+                       "ok":  false,
+                       "points":  15
+                   },
+                   {
+                       "name":  "juris_record_present",
+                       "ok":  true,
+                       "points":  10
+                   }
+               ],
+    "rule":  "Respect proves DNA. Class is earned by artifacts.",
+    "money_unlocked":  false,
+    "operator_required":  true,
+    "human_review_required":  true
+}

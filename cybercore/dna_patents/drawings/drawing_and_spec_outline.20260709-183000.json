@@ -1,0 +1,35 @@
+﻿{
+    "generated_at":  "2026-07-09T18:30:01.5466332-06:00",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "drawings":  [
+                     "Figure 1: System architecture showing Canonical Prime Priority, Skill Authoring Authority, DNA registry, respect lock, class promotion registry, operator packet, and JURIS continuity.",
+                     "Figure 2: Skill DNA data structure with strands: identity, purpose, inputs, outputs, controls, evidence, lineage, class, phase, audit.",
+                     "Figure 3: Respect scoring and class-promotion flow.",
+                     "Figure 4: Money-preparation operator-gate flow.",
+                     "Figure 5: Corporate funding swarm lane selection and readiness packet generation.",
+                     "Figure 6: Audit/JURIS continuity record chain."
+                 ],
+    "specification_sections":  [
+                                   "Title",
+                                   "Cross-reference to related applications",
+                                   "Field",
+                                   "Background",
+                                   "Summary",
+                                   "Brief description of drawings",
+                                   "Detailed description",
+                                   "Example implementation",
+                                   "Data structures",
+                                   "Security and operator-gate controls",
+                                   "Alternative embodiments",
+                                   "Claims",
+                                   "Abstract"
+                               ],
+    "implementation_examples":  [
+                                    "corporate-funding-swarm OPERATOR_CLASS promotion",
+                                    "Coinbase commerce revenue rail readiness packet",
+                                    "fraud/corporate-law case-prep DNA registration",
+                                    "JURIS continuity record generation"
+                                ],
+    "not_legal_advice":  true,
+    "patent_attorney_review_required":  true
+}

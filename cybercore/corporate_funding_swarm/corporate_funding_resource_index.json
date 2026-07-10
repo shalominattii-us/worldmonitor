@@ -1,0 +1,95 @@
+﻿{
+    "ok":  true,
+    "generated_at":  "2026-07-09T13:12:59.7311828-06:00",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "skill_name":  "corporate-funding-swarm",
+    "resource_count":  7,
+    "resources":  [
+                      {
+                          "id":  "sba_loans",
+                          "lane":  "debt_capital",
+                          "title":  "SBA Loans",
+                          "url":  "https://www.sba.gov/funding-programs/loans",
+                          "use_for":  [
+                                          "7a",
+                                          "504",
+                                          "microloan",
+                                          "working capital",
+                                          "equipment",
+                                          "fixed assets"
+                                      ],
+                          "status":  "resource_indexed"
+                      },
+                      {
+                          "id":  "sba_lender_match",
+                          "lane":  "lender_matching",
+                          "title":  "SBA Lender Match",
+                          "url":  "https://www.sba.gov/funding-programs/loans/lender-match",
+                          "use_for":  [
+                                          "approved lender matching",
+                                          "loan prep"
+                                      ],
+                          "status":  "resource_indexed"
+                      },
+                      {
+                          "id":  "grants_gov",
+                          "lane":  "federal_grants",
+                          "title":  "Grants.gov Search",
+                          "url":  "https://www.grants.gov/search-grants",
+                          "use_for":  [
+                                          "federal grant discovery",
+                                          "agency opportunity scan"
+                                      ],
+                          "status":  "resource_indexed"
+                      },
+                      {
+                          "id":  "sbir_sttr",
+                          "lane":  "r_and_d_non_dilutive",
+                          "title":  "SBIR/STTR",
+                          "url":  "https://www.sbir.gov",
+                          "use_for":  [
+                                          "prototype",
+                                          "R\u0026D",
+                                          "commercialization"
+                                      ],
+                          "status":  "resource_indexed"
+                      },
+                      {
+                          "id":  "treasury_ssbci",
+                          "lane":  "state_credit_programs",
+                          "title":  "Treasury SSBCI",
+                          "url":  "https://home.treasury.gov/policy-issues/small-business-programs/state-small-business-credit-initiative-ssbci",
+                          "use_for":  [
+                                          "state credit support",
+                                          "collateral support",
+                                          "loan participation"
+                                      ],
+                          "status":  "resource_indexed"
+                      },
+                      {
+                          "id":  "cdfi_fund",
+                          "lane":  "community_finance",
+                          "title":  "CDFI Fund",
+                          "url":  "https://www.cdfifund.gov/programs-training/programs/cdfi-program",
+                          "use_for":  [
+                                          "community lenders",
+                                          "underserved-market financing"
+                                      ],
+                          "status":  "resource_indexed"
+                      },
+                      {
+                          "id":  "coinbase_business",
+                          "lane":  "revenue_rail_readiness",
+                          "title":  "Coinbase Business",
+                          "url":  "https://www.coinbase.com/business",
+                          "use_for":  [
+                                          "commerce readiness",
+                                          "revenue rail review",
+                                          "operator handoff"
+                                      ],
+                          "status":  "resource_indexed"
+                      }
+                  ],
+    "note":  "Resource index for funding preparation. Official pages must be reviewed before any submission or operator execution.",
+    "human_review_required":  true
+}

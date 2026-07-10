@@ -1,0 +1,100 @@
+[
+  {
+    "path": "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\corporate_funding_swarm\\readiness_packets",
+    "exists": true,
+    "kind": "directory",
+    "classification": "REFERENCE_OR_REVENUE_ASSET",
+    "execution": "not_applicable"
+  },
+  {
+    "path": "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\corporate_funding_swarm\\active_lane",
+    "exists": true,
+    "kind": "directory",
+    "classification": "REFERENCE_OR_REVENUE_ASSET",
+    "execution": "not_applicable"
+  },
+  {
+    "path": "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\corporate_funding_swarm\\operator_handoff",
+    "exists": true,
+    "kind": "directory",
+    "classification": "REFERENCE_OR_REVENUE_ASSET",
+    "execution": "not_applicable"
+  },
+  {
+    "path": "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\cybergenetics_llm_line",
+    "exists": true,
+    "kind": "directory",
+    "classification": "REFERENCE_OR_REVENUE_ASSET",
+    "execution": "not_applicable"
+  },
+  {
+    "path": "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\dna_patents",
+    "exists": true,
+    "kind": "directory",
+    "classification": "REFERENCE_OR_REVENUE_ASSET",
+    "execution": "not_applicable"
+  },
+  {
+    "path": "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\corp_law_case_prep",
+    "exists": false,
+    "kind": "missing",
+    "classification": "REFERENCE_OR_REVENUE_ASSET",
+    "execution": "not_applicable"
+  },
+  {
+    "path": "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\fraud",
+    "exists": false,
+    "kind": "missing",
+    "classification": "REFERENCE_OR_REVENUE_ASSET",
+    "execution": "not_applicable"
+  },
+  {
+    "path": "C:\\Users\\eagle\\code\\worldmonitor\\moltbook\\dispatch",
+    "exists": true,
+    "kind": "directory",
+    "classification": "REFERENCE_OR_REVENUE_ASSET",
+    "execution": "not_applicable"
+  },
+  {
+    "path": "C:\\AEGENTIS_WORKSPACE\\AE_HUB\\adapters\\coinbase_dryrun.py",
+    "exists": true,
+    "kind": "file",
+    "classification": "DRY_RUN_ALLOWED",
+    "execution": "dry_run_only"
+  },
+  {
+    "path": "C:\\AEGENTIS_WORKSPACE\\AE_HUB\\adapters\\coinbase_live_runner.py",
+    "exists": true,
+    "kind": "file",
+    "classification": "MONEY_EXECUTION_RELATED_LOCKED",
+    "execution": "operator_only_no_autonomous_execution"
+  },
+  {
+    "path": "C:\\Users\\eagle\\organized\\financial\\AutoHedge\\autohedge\\tools\\coinbase_api.py",
+    "exists": true,
+    "kind": "file",
+    "classification": "MONEY_EXECUTION_RELATED_LOCKED",
+    "execution": "operator_only_no_autonomous_execution"
+  },
+  {
+    "path": "C:\\Users\\eagle\\organized\\financial\\AutoHedge\\test_coinbase.py",
+    "exists": true,
+    "kind": "file",
+    "classification": "MONEY_EXECUTION_RELATED_LOCKED",
+    "execution": "operator_only_no_autonomous_execution"
+  },
+  {
+    "path": "C:\\Users\\eagle\\organized\\projects\\code\\AEGENTIX-CYBERNETICS-CORE\\autonomous_trader.py",
+    "exists": true,
+    "kind": "file",
+    "classification": "MONEY_EXECUTION_RELATED_LOCKED",
+    "execution": "operator_only_no_autonomous_execution"
+  },
+  {
+    "path": "C:\\Users\\eagle\\organized\\projects\\code\\worldmonitor\\cybercore\\skill_economy\\coinbase_manual_trade_watchlist.json",
+    "exists": true,
+    "kind": "file",
+    "classification": "MONEY_EXECUTION_RELATED_LOCKED",
+    "execution": "operator_only_no_autonomous_execution"
+  }
+]

@@ -1,0 +1,35 @@
+﻿{
+    "generated_at":  "2026-07-09T13:24:45.6772825-06:00",
+    "record_type":  "coinbase_commerce_revenue_rail_readiness",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "skill_name":  "corporate-funding-swarm",
+    "class":  "OPERATOR_CLASS",
+    "phase":  "money_preparation",
+    "selected_lane":  "Coinbase commerce revenue rail readiness",
+    "funding_amount_or_target":  "1,000,000",
+    "readiness_packet":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\corporate_funding_swarm\\readiness_packets\\coinbase_commerce_revenue_rail_readiness.20260709-132438.json",
+    "active_lane_packet":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\corporate_funding_swarm\\active_lane\\active_funding_lane.20260709-132318.json",
+    "coinbase_local_api_status":  [
+                                      {
+                                          "url":  "http://127.0.0.1:8097/health",
+                                          "ok":  false,
+                                          "error":  "Unable to connect to the remote server",
+                                          "checked_at":  "2026-07-09T13:24:41.1343308-06:00"
+                                      },
+                                      {
+                                          "url":  "http://127.0.0.1:8097/",
+                                          "ok":  false,
+                                          "error":  "Unable to connect to the remote server",
+                                          "checked_at":  "2026-07-09T13:24:43.1944727-06:00"
+                                      },
+                                      {
+                                          "url":  "http://127.0.0.1:8097/api/health",
+                                          "ok":  false,
+                                          "error":  "Unable to connect to the remote server",
+                                          "checked_at":  "2026-07-09T13:24:45.2419168-06:00"
+                                      }
+                                  ],
+    "bypass":  false,
+    "operator_required":  true,
+    "human_review_required":  true
+}

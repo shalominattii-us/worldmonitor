@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-07-09T19:46:54.9542524-06:00",
+  "authority": "CANONICAL_PRIME_PRIORITY",
+  "engine": "CYBERGENETICS_MONEY_ENGINE",
+  "catalog_status": "SELLABLE_DRAFT_READY",
+  "currency": "USD",
+  "offers": [
+    {
+      "sku": "CG-FUNDING-READINESS",
+      "name": "Corporate Funding Readiness Packet",
+      "price_floor_usd": 2500,
+      "price_ceiling_usd": 15000,
+      "delivery": "Funding lane selection, readiness packet, use-of-funds statement, evidence checklist, operator handoff.",
+      "uses_assets": [
+        "corporate_funding_swarm",
+        "Coinbase readiness packet",
+        "JURIS continuity"
+      ],
+      "execution_gate": "operator_review_required"
+    },
+    {
+      "sku": "CG-COINBASE-RAIL",
+      "name": "Coinbase Commerce / Revenue Rail Readiness",
+      "price_floor_usd": 750,
+      "price_ceiling_usd": 5000,
+      "delivery": "Coinbase Business readiness checklist, checkout/revenue rail setup packet, reconciliation ledger.",
+      "uses_assets": [
+        "coinbase_commerce_revenue_rail_readiness",
+        "coinbase templates",
+        "operator confirmation ledger"
+      ],
+      "execution_gate": "operator_only_inside_official_coinbase"
+    },
+    {
+      "sku": "CG-FRAUD-CASE",
+      "name": "Digital Fraud Evidence & Case Prep Packet",
+      "price_floor_usd": 499,
+      "price_ceiling_usd": 7500,
+      "delivery": "Incident timeline, evidence checklist, reporting matrix, case packet, JURIS audit record.",
+      "uses_assets": [
+        "digital fraud engine",
+        "case prep engine",
+        "JURIS records"
+      ],
+      "execution_gate": "human_review_required"
+    },
+    {
+      "sku": "CG-CORP-LAW-PREP",
+      "name": "Corporate Law Case Preparation Packet",
+      "price_floor_usd": 1500,
+      "price_ceiling_usd": 12000,
+      "delivery": "Corporate fact pattern, document index, issue map, evidence matrix, attorney handoff packet.",
+      "uses_assets": [
+        "corp_law_case_prep",
+        "casework packets",
+        "JURIS continuity"
+      ],
+      "execution_gate": "attorney_review_required"
+    },
+    {
+      "sku": "CG-DNA-PATENT-PREP",
+      "name": "DNA Patent Prep / Invention Disclosure Packet",
+      "price_floor_usd": 1500,
+      "price_ceiling_usd": 10000,
+      "delivery": "Invention disclosure, prior-art search plan, claim scaffold, drawings list, provisional prep index.",
+      "uses_assets": [
+        "dna_patents",
+        "cybergenetics_llm_line",
+        "Canonical Prime Priority"
+      ],
+      "execution_gate": "patent_attorney_review_required"
+    },
+    {
+      "sku": "CG-LLM-LINE",
+      "name": "Cybergenetics LLM Line Implementation",
+      "price_floor_usd": 5000,
+      "price_ceiling_usd": 50000,
+      "delivery": "Model cards, system prompts, eval gates, registry, governance controls, operator handoff flows.",
+      "uses_assets": [
+        "cybergenetics_llm_line",
+        "skill authoring authority",
+        "eval gates"
+      ],
+      "execution_gate": "human_review_required"
+    }
+  ],
+  "live_trading": "LOCKED",
+  "fund_movement": "OPERATOR_ONLY",
+  "secrets_allowed": false,
+  "bypass": false
+}

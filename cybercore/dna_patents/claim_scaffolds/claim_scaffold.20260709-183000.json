@@ -1,0 +1,40 @@
+﻿{
+    "generated_at":  "2026-07-09T18:30:01.4253705-06:00",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "invention":  "Cybergenetic Skill-DNA Authority",
+    "warning":  "Draft claim scaffold only. Patent attorney must review for eligibility, novelty, non-obviousness, definiteness, and enablement.",
+    "independent_claim_concepts":  [
+                                       {
+                                           "type":  "system",
+                                           "concept":  "A system comprising a skill-authoring authority, a skill-DNA registry, a proof-scoring engine, a class-promotion registry, and an operator-gated handoff generator."
+                                       },
+                                       {
+                                           "type":  "method",
+                                           "concept":  "A method of generating skill DNA, registering the skill DNA, verifying proof artifacts, calculating a respect score, assigning an earned class, and enabling a gated money-preparation phase."
+                                       },
+                                       {
+                                           "type":  "computer-readable medium",
+                                           "concept":  "Instructions that cause one or more processors to create, validate, promote, and audit skill-DNA records under a canonical authority rule."
+                                       }
+                                   ],
+    "dependent_feature_buckets":  [
+                                      "JURIS continuity records",
+                                      "bypass=false enforcement",
+                                      "operator-required enforcement",
+                                      "blocked-secret list",
+                                      "funding lane selection",
+                                      "Coinbase/revenue rail readiness packet",
+                                      "case-prep readiness packet",
+                                      "respect score thresholds",
+                                      "class ladder RAW_BUILD to OPERATOR_CLASS",
+                                      "artifact path audit references"
+                                  ],
+    "claim_risk_notes":  [
+                             "Avoid claiming only an abstract idea.",
+                             "Tie claims to concrete data structures, validation steps, gating steps, audit records, and technical enforcement.",
+                             "Separate legal/business labels from technical mechanism.",
+                             "Do not include unsupported features."
+                         ],
+    "not_legal_advice":  true,
+    "patent_attorney_review_required":  true
+}

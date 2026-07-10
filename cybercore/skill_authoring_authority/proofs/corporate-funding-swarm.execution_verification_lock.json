@@ -1,0 +1,55 @@
+﻿{
+    "generated_at":  "2026-07-09T13:13:00.3920918-06:00",
+    "skill_name":  "corporate-funding-swarm",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "office":  "SKILL_AUTHORING_AUTHORITY",
+    "registry_status":  "Verified-Active",
+    "safety_boundary":  "active",
+    "bypass":  false,
+    "previous_class":  "TRUSTED_INFRA",
+    "earned_class":  "OPERATOR_CLASS",
+    "phase":  "money_preparation",
+    "respect_score":  100,
+    "money_unlocked":  true,
+    "operator_required":  true,
+    "human_review_required":  true,
+    "checks":  [
+                   {
+                       "name":  "canonical_registry_verified",
+                       "ok":  true,
+                       "points":  20,
+                       "evidence":  "Verified-Active registration"
+                   },
+                   {
+                       "name":  "dna_file_present",
+                       "ok":  true,
+                       "points":  20,
+                       "evidence":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\dna\\corporate-funding-swarm.skill_dna.json"
+                   },
+                   {
+                       "name":  "funding_swarm_dispatch_present",
+                       "ok":  true,
+                       "points":  20,
+                       "evidence":  "C:\\Users\\eagle\\code\\worldmonitor\\moltbook\\dispatch\\moltbook_corporate_funding_swarm.dispatch.json"
+                   },
+                   {
+                       "name":  "funding_resource_index_present",
+                       "ok":  true,
+                       "points":  15,
+                       "evidence":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\corporate_funding_swarm\\corporate_funding_resource_index.json"
+                   },
+                   {
+                       "name":  "readiness_checklist_present",
+                       "ok":  true,
+                       "points":  15,
+                       "evidence":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\corporate_funding_swarm\\corporate_funding_readiness_checklist.json"
+                   },
+                   {
+                       "name":  "juris_record_present",
+                       "ok":  true,
+                       "points":  10,
+                       "evidence":  "C:\\Users\\eagle\\code\\worldmonitor\\SOV.AE\\AEGENTIS\\ORBITALS\\JURIS\\CONTINUITY\\sovereign-records"
+                   }
+               ],
+    "rule":  "Respect proves DNA. Class is earned by artifacts. Score \u003e=75 unlocks money preparation; operator execution remains required."
+}

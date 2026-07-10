@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-07-09T19:49:03.3389813-06:00",
+  "record_type": "cybergenetics_first_sale_launch",
+  "authority": "CANONICAL_PRIME_PRIORITY",
+  "engine": "CYBERGENETICS_MONEY_ENGINE",
+  "status": "FIRST_SALE_LAUNCH_READY",
+  "launch_index": "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\money_engine\\first_sale_launch\\first_sale_launch_index.20260709-194902.json",
+  "landing_page": "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\money_engine\\first_sale_launch\\site\\index.html",
+  "checkout_url_map": "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\money_engine\\first_sale_launch\\close_queue\\operator_checkout_url_map.20260709-194902.csv",
+  "outreach_messages": "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\money_engine\\first_sale_launch\\outreach\\first_five_outreach_messages.20260709-194902.md",
+  "lead_capture": "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\money_engine\\first_sale_launch\\lead_capture\\first_sale_leads.20260709-194902.csv",
+  "flagship_sku": "CG-FRAUD-CASE",
+  "live_execution_locked": true,
+  "operator_required": true,
+  "bypass": false
+}

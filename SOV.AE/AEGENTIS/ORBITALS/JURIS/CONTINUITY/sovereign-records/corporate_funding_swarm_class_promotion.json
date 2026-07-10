@@ -1,0 +1,20 @@
+﻿{
+    "generated_at":  "2026-07-09T13:08:22.7787650-06:00",
+    "record_type":  "skill_class_promotion",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "office":  "SKILL_AUTHORING_AUTHORITY",
+    "skill_name":  "corporate-funding-swarm",
+    "previous_class":  "RAW_BUILD",
+    "earned_class":  "RAW_BUILD",
+    "phase":  "respect",
+    "respect_score":  50,
+    "registry_status":  "Verified-Active",
+    "safety_boundary":  "active",
+    "bypass":  false,
+    "doctrine":  "Respect creates DNA. DNA earns class. Class unlocks phase.",
+    "money_unlocked":  false,
+    "operator_required":  true,
+    "human_review_required":  true,
+    "lock":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\proofs\\corporate-funding-swarm.execution_verification_lock.json",
+    "dna_path":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\dna\\corporate-funding-swarm.skill_dna.json"
+}

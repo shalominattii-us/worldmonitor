@@ -1,0 +1,31 @@
+﻿{
+    "generated_at":  "2026-07-09T18:30:01.6551207-06:00",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "packet_status":  "READY_FOR_PATENT_ATTORNEY_REVIEW",
+    "filing_status":  "NOT_FILED",
+    "patent_pending":  false,
+    "title":  "Canonical Prime Priority Cybergenetic Skill-DNA Authoring and Class Promotion System",
+    "artifacts":  {
+                      "invention_disclosure":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\dna_patents\\invention_disclosures\\cybergenetic_skill_dna_invention_disclosure.20260709-183000.json",
+                      "prior_art_search_plan":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\dna_patents\\prior_art\\prior_art_search_plan.20260709-183000.json",
+                      "drawing_spec_outline":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\dna_patents\\drawings\\drawing_and_spec_outline.20260709-183000.json",
+                      "manifest":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\dna_patents\\dna_patent_preparation_authority.json",
+                      "claim_scaffold":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\dna_patents\\claim_scaffolds\\claim_scaffold.20260709-183000.json"
+                  },
+    "review_gate":  {
+                        "prior_art_search_required":  true,
+                        "trade_secret_review_required":  true,
+                        "inventor_review_required":  true,
+                        "patent_attorney_review_required":  true,
+                        "filing_decision_required":  true
+                    },
+    "next_actions":  [
+                         "Review invention disclosure for accuracy.",
+                         "List human inventors and contribution facts.",
+                         "Run prior-art search.",
+                         "Decide patent vs trade-secret boundaries.",
+                         "Have patent attorney draft/review claims.",
+                         "Use official USPTO Patent Center only if filing."
+                     ],
+    "not_legal_advice":  true
+}

@@ -1,0 +1,59 @@
+services:
+  coinbase-postgres:
+    image: postgres:16-alpine
+    container_name: coinbase-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: coinbase
+      POSTGRES_USER: coinbase
+      POSTGRES_PASSWORD: coinbase_local_only
+    ports:
+      - "5447:5432"
+    volumes:
+      - coinbase_postgres_data:/var/lib/postgresql/data
+
+  coinbase-redis:
+    image: redis:7.2-alpine
+    container_name: coinbase-redis
+    restart: unless-stopped
+    ports:
+      - "6397:6379"
+    volumes:
+      - coinbase_redis_data:/data
+
+  coinbase-api:
+    build:
+      context: ./coinbase_api_shim
+    container_name: coinbase-api
+    restart: unless-stopped
+    environment:
+      ROLE: coinbase-api
+      PORT: 8080
+    ports:
+      - "8097:8080"
+    volumes:
+      - C:/AEGENTIS_WORKSPACE/AE_HUB/adapters:/mnt/ae_hub_adapters:ro
+      - C:/Users/eagle/organized/financial/AutoHedge:/mnt/autohedge:ro
+      - C:/Users/eagle/organized/projects/code/worldmonitor/cybercore/skill_economy:/mnt/watchlist:ro
+    depends_on:
+      - coinbase-postgres
+      - coinbase-redis
+
+  coinbase-agent:
+    build:
+      context: ./coinbase_api_shim
+    container_name: coinbase-agent
+    restart: unless-stopped
+    environment:
+      ROLE: coinbase-agent
+      PORT: 8080
+    volumes:
+      - C:/AEGENTIS_WORKSPACE/AE_HUB/adapters:/mnt/ae_hub_adapters:ro
+      - C:/Users/eagle/organized/financial/AutoHedge:/mnt/autohedge:ro
+      - C:/Users/eagle/organized/projects/code/worldmonitor/cybercore/skill_economy:/mnt/watchlist:ro
+    depends_on:
+      - coinbase-api
+
+volumes:
+  coinbase_postgres_data:
+  coinbase_redis_data:

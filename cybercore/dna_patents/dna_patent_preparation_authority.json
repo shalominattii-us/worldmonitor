@@ -1,0 +1,30 @@
+﻿{
+    "generated_at":  "2026-07-09T18:30:00.9224113-06:00",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "office":  "SKILL_AUTHORING_AUTHORITY",
+    "module":  "DNA_PATENT_PREPARATION",
+    "purpose":  "Prepare patent-readiness artifacts for cybergenetic skill-DNA architecture.",
+    "subject":  "software/system architecture DNA: skill authoring authority, registration strands, respect score, class promotion, funding swarm, operator handoff, audit lineage",
+    "not_legal_advice":  true,
+    "patent_attorney_review_required":  true,
+    "filing_automation":  false,
+    "patent_pending_claim_allowed":  false,
+    "allowed_outputs":  [
+                            "invention disclosure",
+                            "prior-art search plan",
+                            "claim scaffold",
+                            "specification outline",
+                            "drawing list",
+                            "provisional packet checklist",
+                            "attorney review handoff"
+                        ],
+    "blocked_outputs":  [
+                            "final legal opinion",
+                            "actual USPTO filing",
+                            "false patent-pending claim",
+                            "inventorship misrepresentation",
+                            "fabricated dates",
+                            "fabricated prior-art results"
+                        ],
+    "doctrine":  "Respect creates DNA. DNA earns class. Patents require disclosure discipline and human patent review."
+}

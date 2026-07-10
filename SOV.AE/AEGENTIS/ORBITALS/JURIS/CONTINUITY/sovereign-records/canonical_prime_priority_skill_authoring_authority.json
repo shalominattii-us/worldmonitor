@@ -1,0 +1,22 @@
+﻿{
+    "generated_at":  "2026-07-09T13:05:12.4714064-06:00",
+    "record_type":  "skill_authoring_authority",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "office":  "SKILL_AUTHORING_AUTHORITY",
+    "summary":  "Canonical Prime Priority is installed as the authority that authors cybergenetic skill DNA. It defines strands, controls, lineage, class, phase, registry, and audit requirements.",
+    "doctrine":  "Respect creates DNA. DNA earns class. Class unlocks phase.",
+    "files":  {
+                  "loader":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\load_canonical_prime_priority.ps1",
+                  "types":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\types\\CanonicalPrimePriority.types.ps1",
+                  "schema":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\skill_dna_authoring_schema.json",
+                  "manifest":  "C:\\Users\\eagle\\code\\worldmonitor\\cybercore\\skill_authoring_authority\\canonical_prime_priority_skill_authority.manifest.json"
+              },
+    "limits":  [
+                   "architecture authority only",
+                   "not court/legal authority",
+                   "not financial execution authority",
+                   "human review required for legal/financial actions",
+                   "operator execution required for fund movement"
+               ],
+    "human_review_required":  true
+}

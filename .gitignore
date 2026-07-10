@@ -92,3 +92,5 @@ cybercore-paper-proof-trader/.env
 *.pem
 *.key
 *.p12
+
+cybercore-paper-proof-trader.autohedge-backup-*/

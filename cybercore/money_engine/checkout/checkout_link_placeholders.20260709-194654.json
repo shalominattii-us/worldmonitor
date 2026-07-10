@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-07-09T19:46:55.1363383-06:00",
+  "authority": "CANONICAL_PRIME_PRIORITY",
+  "checkout_status": "PLACEHOLDERS_READY",
+  "instruction": "Operator creates checkout/payment links only inside official Coinbase Business, bank, or invoicing platform.",
+  "checkout_rows": [
+    {
+      "sku": "CG-FUNDING-READINESS",
+      "name": "Corporate Funding Readiness Packet",
+      "price_floor_usd": 2500,
+      "price_ceiling_usd": 15000,
+      "official_checkout_link": "OPERATOR_TO_CREATE_IN_OFFICIAL_COINBASE_OR_INVOICE_PLATFORM",
+      "payment_status": "not_requested",
+      "secret_fields": "blocked",
+      "operator_required": true
+    },
+    {
+      "sku": "CG-COINBASE-RAIL",
+      "name": "Coinbase Commerce / Revenue Rail Readiness",
+      "price_floor_usd": 750,
+      "price_ceiling_usd": 5000,
+      "official_checkout_link": "OPERATOR_TO_CREATE_IN_OFFICIAL_COINBASE_OR_INVOICE_PLATFORM",
+      "payment_status": "not_requested",
+      "secret_fields": "blocked",
+      "operator_required": true
+    },
+    {
+      "sku": "CG-FRAUD-CASE",
+      "name": "Digital Fraud Evidence & Case Prep Packet",
+      "price_floor_usd": 499,
+      "price_ceiling_usd": 7500,
+      "official_checkout_link": "OPERATOR_TO_CREATE_IN_OFFICIAL_COINBASE_OR_INVOICE_PLATFORM",
+      "payment_status": "not_requested",
+      "secret_fields": "blocked",
+      "operator_required": true
+    },
+    {
+      "sku": "CG-CORP-LAW-PREP",
+      "name": "Corporate Law Case Preparation Packet",
+      "price_floor_usd": 1500,
+      "price_ceiling_usd": 12000,
+      "official_checkout_link": "OPERATOR_TO_CREATE_IN_OFFICIAL_COINBASE_OR_INVOICE_PLATFORM",
+      "payment_status": "not_requested",
+      "secret_fields": "blocked",
+      "operator_required": true
+    },
+    {
+      "sku": "CG-DNA-PATENT-PREP",
+      "name": "DNA Patent Prep / Invention Disclosure Packet",
+      "price_floor_usd": 1500,
+      "price_ceiling_usd": 10000,
+      "official_checkout_link": "OPERATOR_TO_CREATE_IN_OFFICIAL_COINBASE_OR_INVOICE_PLATFORM",
+      "payment_status": "not_requested",
+      "secret_fields": "blocked",
+      "operator_required": true
+    },
+    {
+      "sku": "CG-LLM-LINE",
+      "name": "Cybergenetics LLM Line Implementation",
+      "price_floor_usd": 5000,
+      "price_ceiling_usd": 50000,
+      "official_checkout_link": "OPERATOR_TO_CREATE_IN_OFFICIAL_COINBASE_OR_INVOICE_PLATFORM",
+      "payment_status": "not_requested",
+      "secret_fields": "blocked",
+      "operator_required": true
+    }
+  ],
+  "blocked": [
+    "passwords",
+    "2FA codes",
+    "API secrets",
+    "seed phrases",
+    "private keys",
+    "session cookies",
+    "wallet backups"
+  ],
+  "bypass": false
+}

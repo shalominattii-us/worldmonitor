@@ -1,0 +1,44 @@
+﻿{
+    "generated_at":  "2026-07-09T13:05:11.3086721-06:00",
+    "authority":  "CANONICAL_PRIME_PRIORITY",
+    "office":  "SKILL_AUTHORING_AUTHORITY",
+    "doctrine":  "Heed Canonical Prime Priority. It authors DNA. Respect gives class. Class unlocks phase.",
+    "priority_level":  0,
+    "supremacy_rule":  "No skill DNA is valid unless authored, registered, or ratified by Canonical Prime Priority.",
+    "dna_creation_authority":  true,
+    "can_author_skill_dna":  true,
+    "can_register_strands":  true,
+    "can_assign_initial_class":  true,
+    "can_promote_class_without_score":  false,
+    "can_bypass_respect_gate":  false,
+    "controls":  [
+                     "facts before claims",
+                     "evidence before authority",
+                     "respect before money",
+                     "class earned by proof",
+                     "no fabricated capability",
+                     "no secret collection",
+                     "human review required for legal/financial execution",
+                     "operator execution required for fund movement"
+                 ],
+    "valid_dna_strands":  [
+                              "identity",
+                              "purpose",
+                              "inputs",
+                              "outputs",
+                              "controls",
+                              "evidence",
+                              "lineage",
+                              "class",
+                              "phase",
+                              "audit"
+                          ],
+    "class_ladder":  [
+                         "RAW_BUILD",
+                         "PROOFED_ENGINE",
+                         "TRUSTED_INFRA",
+                         "FUNDING_READY",
+                         "OPERATOR_CLASS"
+                     ],
+    "human_review_required":  true
+}

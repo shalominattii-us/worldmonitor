@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-07-09T10:32:45.7339575-06:00",
+  "record_type": "funding_swarm_control_correction",
+  "title": "Funding swarm execution gate correction",
+  "correction": "The system is intended to support corporate funding execution preparation, not merely passive read-only research. However, trade placement, transfers, withdrawals, wallet signing, and direct fund movement require authorized external operator execution and are not performed by the assistant.",
+  "allowed": [
+    "funding resource retrieval",
+    "funding readiness packet",
+    "Coinbase status/reconciliation",
+    "payment/checkout instruction preparation",
+    "operator handoff record",
+    "audit trail"
+  ],
+  "blocked_for_assistant": [
+    "placing trades",
+    "withdrawing funds",
+    "transferring crypto",
+    "signing wallet transactions",
+    "collecting API secrets",
+    "collecting seed phrases/private keys",
+    "bypassing approvals"
+  ],
+  "execution_gate": {
+    "assistant_can_execute": false,
+    "preparation_allowed": true,
+    "operator_required": true
+  },
+  "human_review_required": true
+}
